@@ -43,7 +43,7 @@ def write_vfsoverlay(
     vfsoverlay_object = {
         "version": 0,
         "case-sensitive": True,
-        "overlay-relative": False,
+        "overlay-relative": True,
         "use-external-names": False,
         "roots": [
             {
