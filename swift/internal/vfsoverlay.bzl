@@ -46,11 +46,6 @@ def write_vfsoverlay(
         "overlay-relative": True,
         "use-external-names": False,
         "roots": [
-            {
-                "type": "directory",
-                "name": virtual_swiftmodule_root,
-                "contents": virtual_swiftmodules,
-            },
         ],
     }
 
